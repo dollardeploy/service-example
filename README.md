@@ -17,9 +17,7 @@ DollarDeploy:
 - `EXAMPLE_API_TOKEN` — a secret generated on first prepare and reused on
   every subsequent prepare (so it stays stable).
 
-These become available to your app as
-`SERVICE_CUSTOM_<SERVICE_ID>_EXAMPLE_GREETING` and
-`SERVICE_CUSTOM_<SERVICE_ID>_EXAMPLE_API_TOKEN`.
+These become available to your app as `EXAMPLE_GREETING` and `EXAMPLE_API_TOKEN`.
 
 ## Use it
 
